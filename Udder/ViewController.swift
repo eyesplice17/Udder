@@ -18,7 +18,9 @@ class ViewController: UIViewController {
 	@IBAction func getMilk(_ sender: UIButton) {
 	performSegue(withIdentifier: "juggy", sender: self)
 	}
-	
+	override func viewDidDisappear(_ animated: Bool) {
+		//nothing here yet
+	}
 	//works on 11 but not on SE
 }
 
