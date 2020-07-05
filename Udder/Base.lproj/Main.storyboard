@@ -40,6 +40,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="GET MILK"/>
+                                <connections>
+                                    <action selector="getMilk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="goV-wV-Iid"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -47,7 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="has-mz-1zt" kind="show" identifier="juggy" id="kYs-bQ-PSZ"/>
+                        <segue destination="has-mz-1zt" kind="show" identifier="juggy" id="Jhq-xi-RIy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

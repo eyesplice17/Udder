@@ -15,7 +15,10 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view.
 	}
 
-
+	@IBAction func getMilk(_ sender: UIButton) {
+	performSegue(withIdentifier: "juggy", sender: self)
+	}
 	
+	//works on 11 but not on SE
 }
 
